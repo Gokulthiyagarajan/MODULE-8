@@ -1,16 +1,16 @@
-# 🔄 Hackerrank : # 📦 Python Word Wrap Function
+#  Hackerrank : #  Python Word Wrap Function
 
 This Python program defines a function that **wraps a long string into multiple lines**, ensuring each line does not exceed a specified width.
 
 ---
 
-## 🎯 Aim
+##  Aim
 
 To write a Python function that takes a long string and a specified width, and returns the string formatted with line breaks such that each line has **at most the given width**.
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 1. **Start** the program.
 2. Define a function `wrap(string, max_width)`:
@@ -25,10 +25,24 @@ To write a Python function that takes a long string and a specified width, and r
 ---
 
 
-## 🧪 Program
-Add Code Here
+##  Program
+
+```python
+
+def wrap(text, width):
+    result = []
+    for i in range(0, len(text), width):
+        result.append(text[i:i+width])
+    return '\n'.join(result)
+
+print(wrap(input(), int(input())))
+
+```
 
 ## Sample Output
 
+![image](https://github.com/user-attachments/assets/462faa14-fa4e-4589-a34a-b22c5b16d6d0)
+
 ## Result
 
+Thus, the program has been executed successfully.
