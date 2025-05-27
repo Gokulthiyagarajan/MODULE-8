@@ -25,7 +25,7 @@ To write a Python program to:
 
 ---
 
-## 💻  Program
+##   Program
 
 ```python
 
@@ -48,4 +48,4 @@ if __name__ == '__main__':
 
 ## Result
 
-
+Thus, the program has been executed successfully.
